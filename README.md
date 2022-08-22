@@ -7,10 +7,10 @@ Sistem ini menggunakan `NodeMCU ESP32' dan sensor yang digunakan yaitu sensor ra
 
 #### 1. Rancangan blok diagram sistem
 Tujuan dari perancangan blok diagram sistem ini adalah untuk memudahkan dalam membuat dan merancang alat secara keseluruhan.
-![blog](https://user-images.githubusercontent.com/26424136/185843682-4b556639-e876-4bc0-afec-5937a08998f4.png)
+<img src="img/blog.png"  width="600">
 
 #### 2. Perancangan ESP32 sebagai access point
-![ap](https://user-images.githubusercontent.com/26424136/185843930-b9f21204-3cea-43c1-86fb-c265ac86fcf1.png)
+<img src="img/ap.png"  width="600">
 <br />
 Penjelasan:
 1.	Server ESP32 membuat jaringan nirkabelnya sendiri yaitu ESP32 Soft-Access Point. Jadi, perangkat Wi-Fi lain dapat terhubung ke jaringan ini (SSID: ESP32-Access-Point, Password: 123456789).
@@ -20,7 +20,7 @@ Penjelasan:
 5.	Klien menerima bacaan yang ditampilkan pada web server.
 
 #### 3. Skematik Alat
-![skema](https://user-images.githubusercontent.com/26424136/185844842-87bd3781-696c-49b6-a5fa-cf2d64109335.jpg)
+<img src="img/skema.jpg"  width="600">
 
 #### 4. Implementasi
 a. Alat
