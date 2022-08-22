@@ -13,11 +13,11 @@ Tujuan dari perancangan blok diagram sistem ini adalah untuk memudahkan dalam me
 <img src="img/ap.png"  width="500">
 <br />
 Penjelasan:
-1.	Server ESP32 membuat jaringan nirkabelnya sendiri yaitu ESP32 Soft-Access Point. Jadi, perangkat Wi-Fi lain dapat terhubung ke jaringan ini (SSID: ESP32-Access-Point, Password: 123456789).
-2.	Klien handphone dan laptop diatur sebagai station. Jadi, dapat terhubung ke jaringan nirkabel server ESP32.
-3.	Klien dapat membuat permintaan HTTP GET ke server untuk meminta data sensor atau informasi lainnya dan melakukan kontrol terhadap alat. Hal tersebut dapat dilakukan dengan menggunakan alamat IP server untuk membuat permintaan.
-4.	Server mendengarkan permintaan yang masuk dan mengirimkan respons yang sesuai dengan pembacaan.
-5.	Klien menerima bacaan yang ditampilkan pada web server.
+- Server ESP32 membuat jaringan nirkabelnya sendiri yaitu ESP32 Soft-Access Point. Jadi, perangkat Wi-Fi lain dapat terhubung ke jaringan ini (SSID: ESP32-Access-Point, Password: 123456789).
+- Klien handphone dan laptop diatur sebagai station. Jadi, dapat terhubung ke jaringan nirkabel server ESP32.
+- Klien dapat membuat permintaan HTTP GET ke server untuk meminta data sensor atau informasi lainnya dan melakukan kontrol terhadap alat. Hal tersebut dapat dilakukan dengan menggunakan alamat IP server untuk membuat permintaan.
+- Server mendengarkan permintaan yang masuk dan mengirimkan respons yang sesuai dengan pembacaan.
+- Klien menerima bacaan yang ditampilkan pada web server.
 
 #### 3. Skematik Alat
 <img src="img/skema.jpg"  width="700">
