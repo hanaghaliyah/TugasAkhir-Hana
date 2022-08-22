@@ -5,11 +5,11 @@
 ### Rancang Bangun Prototype Pengendali Jemuran dan Pengering Pakaian Berbasis IoT menggunakan Web Server sebagai Pengontrol
 Sistem ini menggunakan `NodeMCU ESP32' dan sensor yang digunakan yaitu sensor raindrop untuk mendeteksi curah air hujan, sensor LDR untuk mendeteksi cahaya matahari dan sensor DHT11 untuk membaca suhu dan kelembaban lingkungan. Untuk komponen yang digunakan terdiri dari motor stepper untuk memindahkan pakaian yang ada di luar ke dalam ruangan, kipas dan lampu pengering untuk mengeringkan pakaian di dalam ruangan. Sistem ini dilengkapi alat pengendali jemuran jarak jauh berupa web yang dapat mengendalikan, memerintah dan mengatur keadaan dari suatu sistem. Untuk alat pengontrolnya sendiri menggunakan Web Server yang merupakan bawaan dari ESP32 dan dapat diakses melalui jaringan lokal. Pada sistem ini, input nilai yang didapat dari 2 (dua) sensor yaitu raindrop dan LDR akan diolah menggunakan metode logika fuzzy. Output dari metode fuzzy yaitu cuaca yang digunakan untuk menentukan keluar masuknya roll atau tali jemuran yang menggunakan bantuan motor stepper sebagai penggerak.
 
-#### Rancangan blok diagram sistem
+#### 1. Rancangan blok diagram sistem
 Tujuan dari perancangan blok diagram sistem ini adalah untuk memudahkan dalam membuat dan merancang alat secara keseluruhan.
 ![blog](https://user-images.githubusercontent.com/26424136/185843682-4b556639-e876-4bc0-afec-5937a08998f4.png)
 
-#### Perancangan ESP32 sebagai access point
+#### 2. Perancangan ESP32 sebagai access point
 ![ap](https://user-images.githubusercontent.com/26424136/185843930-b9f21204-3cea-43c1-86fb-c265ac86fcf1.png)
 <br />
 Penjelasan:
