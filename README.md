@@ -10,7 +10,7 @@ Tujuan dari perancangan blok diagram sistem ini adalah untuk memudahkan dalam me
 <img src="img/blog.png"  width="600">
 
 #### 2. Perancangan ESP32 sebagai access point
-<img src="img/ap.png"  width="600">
+<img src="img/ap.png"  width="500">
 <br />
 Penjelasan:
 1.	Server ESP32 membuat jaringan nirkabelnya sendiri yaitu ESP32 Soft-Access Point. Jadi, perangkat Wi-Fi lain dapat terhubung ke jaringan ini (SSID: ESP32-Access-Point, Password: 123456789).
@@ -20,7 +20,7 @@ Penjelasan:
 5.	Klien menerima bacaan yang ditampilkan pada web server.
 
 #### 3. Skematik Alat
-<img src="img/skema.jpg"  width="600">
+<img src="img/skema.jpg"  width="700">
 
 #### 4. Implementasi
 a. Alat
