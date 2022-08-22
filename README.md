@@ -29,5 +29,5 @@ a. Alat
 <br />
 b. Web Server
 <br />
-![IMG_1224](https://user-images.githubusercontent.com/26424136/185844825-8cdb354e-e6db-4ba5-b73b-9f7e420ce64a.PNG)
+![IMG_1224](https://user-images.githubusercontent.com/26424136/185844825-8cdb354e-e6db-4ba5-b73b-9f7e420ce64a.PNG = 50x50)
 ![IMG_1225](https://user-images.githubusercontent.com/26424136/185844833-ca5210d0-bc82-4bab-9177-3295eaa3c7dd.PNG)
