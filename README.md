@@ -18,3 +18,13 @@ Penjelasan:
 3.	Klien dapat membuat permintaan HTTP GET ke server untuk meminta data sensor atau informasi lainnya dan melakukan kontrol terhadap alat. Hal tersebut dapat dilakukan dengan menggunakan alamat IP server untuk membuat permintaan.
 4.	Server mendengarkan permintaan yang masuk dan mengirimkan respons yang sesuai dengan pembacaan.
 5.	Klien menerima bacaan yang ditampilkan pada web server.
+
+#### 3. Skematik Alat
+![skema](https://user-images.githubusercontent.com/26424136/185844842-87bd3781-696c-49b6-a5fa-cf2d64109335.jpg)
+
+#### 4. Implementasi
+a. Alat
+![alat](https://user-images.githubusercontent.com/26424136/185844838-cbd10ae9-256d-4105-a416-597b33539f0a.jpg)
+b. Web Server
+![IMG_1224](https://user-images.githubusercontent.com/26424136/185844825-8cdb354e-e6db-4ba5-b73b-9f7e420ce64a.PNG)
+![IMG_1225](https://user-images.githubusercontent.com/26424136/185844833-ca5210d0-bc82-4bab-9177-3295eaa3c7dd.PNG)
