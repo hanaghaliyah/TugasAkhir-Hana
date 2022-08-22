@@ -25,7 +25,8 @@ Penjelasan:
 #### 4. Implementasi
 a. Alat
 <br />
-![alat](https://user-images.githubusercontent.com/26424136/185844838-cbd10ae9-256d-4105-a416-597b33539f0a.jpg)
+<img src="img/alat.jpg"  width="600">
+<br />
 <br />
 b. Web Server
 <br />
